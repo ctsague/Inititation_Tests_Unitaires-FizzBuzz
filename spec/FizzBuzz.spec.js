@@ -15,4 +15,7 @@ describe("FizzBuzzOf execution", function () {
      it("should return Buzz at the beginning with parameter 5", function () {
         expect(FizzBuzzOf(5)).toBe("Buzz");
     });
+     it("should return FizzBuzz at the beginning with parameter 15", function () {
+        expect(FizzBuzzOf(15)).toBe("FizzBuzz");
+    });
 });
